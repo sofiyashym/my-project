@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@100..900&familydisplay=swap');
+
+*{
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+#main{
+    background-image: url("img/img/img/bgMAIN.png");
+}
+
+#about{
+    background-image: url("img/img/img/bgABOUT.png");
+}
+    
+#skills{ 
+    background-image: url("img/img/img/bgSKILLS.png");
+    }
+    
+#works{ 
+    background-image: url("img/img/img/bgWORKS.png");
+    }
+    
+#comments{
+    background-image: url("img/img/img/bgCOMMENTS.png");
+    }
+
+.moving-planet{
+    background: url("img/img/img/moving-planet.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 230px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+@keyframes planet-move{
+    from{transform: translateY(0px);}
+    to {transform: translateY(70px);}
+}
+
+.moving-planet{
+    animation-name: planet-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.title{
+    color: #FFF;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 5px 5px 0 black;
+}
+
+.about-content{
+    width: 35%;
+    height: 270px;
+    background: #792AFF;
+    padding-left: 40px ;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+}
+
+.about-title{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 463px;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa';
+}
+
+
+.about-card{
+    background-image: url(img/form2.png);
+    background-repeat:  no-repeat;
+    width: 376px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.about-card p{
+    color: #000;
+    font-size: 17px;
+    align-self: start;
+    padding-left: 20px;
+    line-height: 25px;
+    font-family: 'Comfortaa';
+}
+
+.about-card img{
+    padding-bottom: 20px;
+}
