@@ -8,6 +8,7 @@
 *{
     margin: 0;
     font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -63,36 +64,43 @@ section{
 
 .title{
     color: #FFF;
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
-    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 300px;
     text-shadow: 5px 5px 0 black;
+    margin-bottom: 250px;
+    margin-left: 500px;
+    
 }
 
 .about-content{
-    width: 35%;
+    width: 70%;
     height: 270px;
     background: #792AFF;
-    padding-left: 40px ;
-    padding-top: 40px;
+    padding-left: 90px ;
+    padding-top: 90px;
     position: relative;
     display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+    margin-right: 300px;
 }
 
 .about-title{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    max-width: 463px;
     margin-bottom: 20px;
     font-family: 'Comfortaa';
+    padding-right: 50px;
 }
 
 
 .about-card{
     background-image: url("img/img/img/form2.png");
     background-repeat:  no-repeat;
-    width: 376px;
+    width: 80%;
     height: 346px;
     display: flex;
     flex-direction: column;
@@ -100,6 +108,7 @@ section{
     align-items: center;
     padding-top: 20px;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .about-card p{
@@ -180,4 +189,354 @@ section{
     transform: rotate(-176deg);
     position: absolute;
     right: 20px;
+}
+
+.skills-card{
+    background-image: url("img/img/img/form3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.skills-card p{
+    color: #000;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 500px;
+    font-family: 'Comfortaa';
+}
+
+.title1{
+    padding-top: 67px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.button1{
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid #000;
+    background: #BBFF2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0 #000000;
+    margin-top: 20px;
+    transition-duration: 0.3s;
+}
+
+.moving-planet2{
+    background: url("img/img/img/moving-planet2.png");
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 200px;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+}
+
+.moving-planet2{
+    animation-name: planet_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.works-block img{
+    margin: 0 20px;
+    width: 27%;
+    box-shadow: 7px 7px 0 #000000;
+}
+
+.title2 {
+    padding-top: 67px;
+    color: white;
+    font-size: 50px;
+    text-align: center;   
+}
+
+.title3 {
+    padding-top: 67px;
+    color: white;
+    font-size: 80px;
+    text-align: center;   
+}
+
+.comments-block{
+    justify-content: start;
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+}
+
+.comment-card{
+    background-image: url("img/img/img/card.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.comment-card h3{
+    font-size: 18px;
+    font-family: "Comfortaa";
+    padding: 10px;
+}
+
+.comment-card p{
+    font-size: 14px;
+    font-family: "Comfortaa";
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.comment{
+    background-image: url("img/img/img/comment.png");
+    text-align: center;
+    width: 327px;
+    height: 161px;
+}
+
+.comment p{
+    font-family: "Comfortaa";
+    font-size: 20px;
+    max-width: 250px;
+    max-height: 112px;
+}
+
+.comments-block1{
+    justify-content: start;
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+}
+
+.comment-card1{
+    background-image: url("img/img/img/card.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.comment-card1 h3{
+    font-size: 18px;
+    font-family: "Comfortaa";
+    padding: 10px;
+}
+
+.comment-card1 p{
+    font-size: 14px;
+    font-family: "Comfortaa";
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.comment1{
+    background-image: url("img/img/img/comment.png");
+    text-align: center;
+    width: 327px;
+    height: 161px;
+}
+
+.comment1 p{
+    font-family: "Comfortaa";
+    font-size: 20px;
+    max-width: 250px;
+    max-height: 112px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.fixed-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.nav-links{
+    justify-content: center;
+    padding-right: 150px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.nav-link{
+    width: 112px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    background-color: #FFF;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo{
+    color: #BBFF2C;
+    font-size: 80px;
+    padding-left: 50px;
+}
+
+.active{
+    background-color: #BBFF2C;
+}
+
+@media (max-width:520px){
+    body{
+        background-color: purple;
+    }
+}
+
+@media(min-width:521px) and (max-widht:960px) {
+    body{
+        background-color: #BBFF2C;
+    }
+}
+
+@media(min-width:961px) {
+    body{
+        background-color: black;
+    }
+} 
+
+@media (max-width: 1000px) {
+    .nav-links {
+        display: none;
+    }
+
+    .logo{
+        font-size:40px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+}
+
+.main-content{
+    max-width: 320px;
+}
+
+.main-title{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.main-subtitle{
+    font-size: 15px;
+}
+
+.planet, .moving-cloud, .moving-planet2 {
+    display: none;
+}
+
+.title{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.about-block{
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.about-card{
+    order: -1;
+    background-size: contain;
+    padding-top: 20px;
+    width: 326px;
+    height: 296px;
+}
+
+.about-card img{
+    width: 85%;
+}
+
+.about-content{
+    width: 75%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.about-title{
+    font-size: 18px;
+}
+
+.skills-card{
+    margin: 20px;
+    padding-left: 10px;
+    background-size: contain;
+}
+
+.skills-card p{
+    font-size: 16px;
+    margin-top: 15%;
+    margin-bottom: 20px;
+}
+
+.skills-section{
+    min-height: 60vh;
+}
+
+.skills-card .button{
+    position: absolute;
+    bottom: 100px;
+}
+
+.works-block{
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.works-block img{
+    margin: 20px 0;
+    width: 80%;
+}
+
+.comments-block{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.comment{
+    background-image: url("img/img/img/comment-mobile.png");
+}
+
+.comment p{
+    font-size: 15px;
+    max-width: 290px;
 }
