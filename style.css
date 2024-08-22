@@ -476,22 +476,18 @@ nav{
     background-size: contain;
     padding-top: 20px;
     width: 326px;
-    height: 296px;
-}
+    height: 296px; }
 
 .about-card img{
-    width: 85%;
-}
+    width: 85%; }
 
 .about-content{
     width: 75%;
     height: 250px;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px; }
 
 .about-title{
-    font-size: 18px;
-}
+    font-size: 18px; }
 
 .skills-card{
     margin: 20px;
@@ -539,4 +535,49 @@ nav{
 .comment p{
     font-size: 15px;
     max-width: 290px;
+}
+
+.mobile-button{
+    display: none;
+    padding-top: 10px;
+    width: 40px;
+    position: absolute;
+    right: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-widht: 1000px){
+    .mobile-button{
+        display: block;
+    }
+}
+
+.mobile-menu{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #200153;
+    min-height: 100vh;
+}
+
+ .mobile-nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .mobile-nav-links .nav-link{
+    margin-bottom: 30px;
+    width: 210px;
+    height: 50px;
+}
+
+.off-scroll{
+    overflow: hidden;
 }
